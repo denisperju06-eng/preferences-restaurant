@@ -102,86 +102,70 @@ nav a:hover {
 
 .menu {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(25, 1fr);
     text-align: center;
     gap: 20px;
     padding: 50px 20px 50px 20px;
     background-color: #5C352C;
+    grid-column-gap:10px;
 }
 
 .menu-header{
-    grid-area:1/3/2/5;
+    grid-area:1/4/2/7;
     text-align: center;
     padding-top: 20px;
+    font-size: 25px;;
 }
 
-.class17{
-    grid-area: 2/2/4/6;
-    background-color: #B97A57;
-}
-.class18{
-    grid-area: 5/2/7/6;
-    background-color: #E9B48A;
-}
-.class19{
-    grid-area: 8/2/10/6;
-    background-color: #E9B48A;
-}
-.class20{
-    grid-area: 11/2/13/6;
-    background-color: #E9B48A;
-}
-.class21{
-    grid-area: 14/2/16/6;
-    background-color: #E9B48A;
-}
-.class22{
-    grid-area: 17/2/19/6;
-    background-color: #E9B48A;
-}
-.class23{
-    grid-area: 20/2/22/6;
-    background-color: #E9B48A;  
-}
-.class24{
-    grid-area: 23/2/25/6;
-    background-color: #E9B48A;  
-}
+
 .menu-item1{
-    grid-area: 2/2/4/3;
+    grid-area: 2/2/4/5;
+    align-self: center;
     background-color: #956959;
-    padding: 20px;
+    padding: 60px 10px 60px 10px;
     border-radius: 20px;
     align-items: center;
+    text-decoration: none;
+    color:#E9B48A;
+
 }
-.menu-item2{
-    grid-area: 2/4/4/6;
-    background-color: #956959;
-    padding: 20px;
-    border-radius: 20px;
-    align-items: center;
+.menu-item1 img{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+    font-size: 26px;
+    margin:0;
 }
 .menu-item3{
-    grid-area: 5/2/7/3;
+    grid-area: 2/6/4/9;
+    align-self:center;
+    padding: 60px 10px 60px 10px;
     background-color: #956959;
-    padding: 20px;
     border-radius: 20px;
+    align-items: center;
+    text-decoration: none;
+    color:#E9B48A;
 }
-.menu-item4{
-    grid-area: 5/4/7/6;
-    background-color: #956959;
-    padding: 20px;
-    border-radius: 20px;
+.menu-item3 img{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
 }
+
 .menu-item5{
-    grid-area: 8/2/10/3;
+    grid-area: 9/2/10/3;
     background-color: #956959;
     padding: 20px;
     border-radius: 20px;
 }
 .menu-item6{
-    grid-area: 8/4/10/6;
+    grid-area: 9/4/10/6;
     background-color: #956959;
     padding: 20px;
     border-radius: 20px;
