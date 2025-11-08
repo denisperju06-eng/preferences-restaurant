@@ -127,17 +127,8 @@ nav a:hover {
     align-self: center;
 }
 
-
 .menu-fast-food {
     grid-area: 2/2/4/5;
-    align-self: center;
-    background-color: #956959;
-    padding: 60px 10px 60px 10px;
-    border-radius: 60px;
-    align-items: center;
-    text-decoration: none;
-    color: #E9B48A;
-
 }
 
 .foto {
@@ -158,50 +149,24 @@ nav a:hover {
 
 .menu-sushi {
     grid-area: 2/6/4/9;
-    align-self: center;
-    padding: 60px 10px 60px 10px;
-    background-color: #956959;
-    border-radius: 60px;
-    align-items: center;
-    text-decoration: none;
-    color: #E9B48A;
 }
 
 .menu-salad {
     grid-area: 4/2/7/5;
-    align-self: center;
-    background-color: #956959;
-    padding: 60px 10px 60px 10px;
-    border-radius: 60px;
-    align-items: center;
-    text-decoration: none;
-    color: #E9B48A;
 }
 
 .menu-gourmet-starters {
     grid-area: 4/6/7/9;
-    align-self: center;
-    background-color: #956959;
-    padding: 60px 10px 60px 10px;
-    border-radius: 60px;
-    align-items: center;
-    text-decoration: none;
-    color: #E9B48A;
 }
 
 .menu-dessert {
     grid-area: 7/2/9/5;
-    align-self: center;
-    background-color: #956959;
-    padding: 60px 10px 60px 10px;
-    border-radius: 60px;
-    align-items: center;
-    text-decoration: none;
-    color: #E9B48A;
 }
 
 .menu-cocktails {
     grid-area: 7/6/9/9;
+}
+#sector{
     align-self: center;
     background-color: #956959;
     padding: 60px 10px 60px 10px;
@@ -210,13 +175,7 @@ nav a:hover {
     text-decoration: none;
     color: #E9B48A;
 }
-
-.menu-fast-food:hover,
-.menu-sushi:hover,
-.menu-salad:hover,
-.menu-gourmet-starters:hover,
-.menu-dessert:hover,
-.menu-cocktails:hover {
+#sector:hover{
     background-color: #E9B48A;
     color: #2A1713;
     transform: translatey(-5px);
@@ -261,12 +220,7 @@ footer {
         grid-column-gap: 10px;
     }
 
-    .menu-fast-food,
-    .menu-sushi,
-    .menu-salas,
-    .menu-gourmet-starters,
-    .menu-dessert,
-    .menu-cocktails {
+    #sector{
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-end: auto;
