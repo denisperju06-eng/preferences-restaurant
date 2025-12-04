@@ -37,6 +37,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-color: #2A1713;
+
 }
 
 nav {
@@ -182,37 +183,6 @@ nav a:hover {
     box-shadow: 0 15px 40px rgba(69, 69, 70, 0.5);
 }
 
-footer {
-    background-color: #2A1713;
-    color: #E9B48A;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    padding: 30px;
-    border-bottom: #5C352C solid 2px;
-    padding: 30px auto;
-}
-
-.footer-section h3 {
-    font-weight: 600;
-    font-size: 28px;
-}
-
-.footer-container {
-    padding-top: 25px;
-    padding-bottom: 10px;
-    color: grey;
-    font-size: 15px;
-}
-
 @media screen and (max-width: 960px) {
     .menu {
         grid-template-columns: repeat(3, 1fr);
@@ -239,6 +209,38 @@ footer {
     }
 }
 
+
+footer {
+    background-color: #2A1713;
+    color: #E9B48A;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-bottom: #5C352C solid 2px;
+    padding: 30px;
+}
+
+.footer-section h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.footer-container {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: grey;
+    font-size: 15px;
+}
+
 .footer-content .social-media{
     margin: 5px 0;
     font-size: 18px;
@@ -258,22 +260,23 @@ footer {
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
   border-radius: 100px;
 }
 
-/* Twitter */
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
+    border-radius: 100px;
+}
+.fa-instagram {
+    background: linear-gradient(45deg,#ffdf9e,#ffc273,#e56969,#c1558b,#8a49a1);
+    color: white;
+    border-radius: 100px;
 }
