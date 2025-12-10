@@ -54,7 +54,6 @@ nav{
 
 section{
     width: 85%;
-
 }
 
 .logo{
@@ -113,15 +112,12 @@ nav a:hover{
 }
 
 .intro-img {
-    max-width: 28em;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 28em;
 }
-
 
 .menu-section{
     background-color: var(--page-bg-light);
-    padding:2em;
+    padding: 2em;
     border-radius: 0.5em;
 }
 
@@ -189,10 +185,10 @@ nav a:hover{
 
 .popup-content {
     background: #fff;
-    padding: 30px;
+    padding: 2em;
     border-radius: 10px;
     position: relative;
-    width: 300px;
+    width: 18em;
     max-width: 90%;
     text-align: center;
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
@@ -200,12 +196,11 @@ nav a:hover{
 
 .close {
     position: absolute;
-    top: 10px; right: 15px;
-    font-size: 22px;
+    top: 0.6em; right: 0.9em;
+    font-size: 1.3em;
     cursor: pointer;
     color: #333;
 }
-
 
 footer {
     width: 85%;
@@ -259,8 +254,6 @@ footer {
     font-size: 0.9em;
 }
 
-
-/* ---------- MEDIA 1200px (laptopuri mici) ---------- */
 @media (max-width: 1200px) {
 
     header, section, footer {
@@ -277,7 +270,16 @@ footer {
     }
 
     .intro-img {
-        width: 23em;
+        width: 85%;
+        max-width: 18em;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-img img {
+        width: 28em;
+        margin: 0 auto;
     }
 
     .menu-grid {
@@ -286,7 +288,6 @@ footer {
     }
 }
 
-/* ---------- MEDIA 992px (tablete landscape) ---------- */
 @media (max-width: 992px) {
 
     body {
@@ -299,7 +300,16 @@ footer {
     }
 
     .intro-img {
-        width: 20em;
+        width: 85%;
+        max-width: 18em;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-img img {
+        width: 28em;
+        margin: 0 auto;
     }
 
     .menu-grid {
@@ -317,12 +327,11 @@ footer {
 
     .footer-col {
         width: 40%;
-        text-align: center;
+        text-align: center; /* centrare text */
     }
-
 }
 
-/* ---------- MEDIA 768px (tablete portrait) ---------- */
+/* 768px */
 @media (max-width: 768px) {
 
     nav {
@@ -339,7 +348,16 @@ footer {
     }
 
     .intro-img {
-        width: 18em;
+        width: 85%;
+        max-width: 18em;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-img img {
+        width: 28em;
+        margin: 0 auto;
     }
 
     .menu-section {
@@ -358,10 +376,10 @@ footer {
 
     .footer-col {
         width: 100%;
+        text-align: center;
     }
 }
 
-/* ---------- MEDIA 576px (telefoane medii) ---------- */
 @media (max-width: 576px) {
 
     .intro-text h1 {
@@ -372,9 +390,19 @@ footer {
         font-size: 1em;
     }
 
-    .intro-img {
-        width: 16em;
-    }
+        .intro-img {
+            width: 85%;
+            max-width: 16em;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .intro-img img {
+            width: 25em;
+        }
+
+
 
     .menu-section h2 {
         font-size: 1.8em;
@@ -383,7 +411,8 @@ footer {
     .footer-container {
         flex-direction: column;
         align-items: center;
-        gap: 1.8em;
+        gap: 2em;
+        text-align: center;
     }
 
     .footer-col h3 {
@@ -391,7 +420,6 @@ footer {
     }
 }
 
-/* ---------- MEDIA 400px (telefoane mici) ---------- */
 @media (max-width: 400px) {
 
     .intro-text h1 {
@@ -399,7 +427,15 @@ footer {
     }
 
     .intro-img {
-        width: 14em;
+        width: 85%;
+        max-width: 14em;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-img img {
+        width: 16em;
     }
 
     .btn-primary button {
