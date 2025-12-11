@@ -102,7 +102,7 @@ nav a:hover{
     border: none;
     font-size: 1.13em;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 0.5em;
     transition: 0.3s;
     color: var(--button-text-bg-color);
 }
@@ -134,15 +134,16 @@ nav a:hover{
 
 .card{
     background: white;
-    border: 1px solid var(--card-border-bg-color);
-    border-radius: 10px;
+    border: 0.1em solid var(--card-border-bg-color);
+    border-radius: 1em;
     padding-bottom: 1.25em;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -3px 10px rgba(0,0,0,0.2);
+    box-shadow: 0.4em 0.4em 0.8em rgba(0,0,0,0.2), -0.3em -0.1em 0.8em rgba(0,0,0,0.2);
 }
 
 .card img{
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    height: 100%;
+    border-radius: 1em 1em 0 0;
 }
 
 .card h3{
