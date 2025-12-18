@@ -82,7 +82,12 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
+    margin-bottom: 3em;
+    img{
+        width: 32em;
+        margin:0;
+        padding: 0;
+    }
 }
 
 .intro-text{
@@ -111,19 +116,16 @@ nav a:hover{
     background: var(--button-text-hover-bg-color);
 }
 
-.intro-img {
-    width: 28em;
-}
-
 .menu-section{
     background-color: var(--page-bg-light);
     padding: 2em;
     border-radius: 0.5em;
 }
 
-.menu-section h2{
+.intro-menu h2{
     font-size: 2.25em;
-    margin-bottom: 1.88em;
+    margin-bottom: 1em;
+    margin-top: 0.8em;
 }
 
 .menu-grid{
