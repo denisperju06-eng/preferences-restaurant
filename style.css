@@ -217,6 +217,7 @@ footer {
     text-align: center;
     margin-top: 2.5em;
     padding-top: 1.2em;
+    padding-bottom: 1em;
     border-top: 1px solid var(--card-title);
     color: var(--footer-text);
     font-size: 0.9em;
