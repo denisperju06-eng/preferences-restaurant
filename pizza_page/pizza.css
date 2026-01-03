@@ -82,10 +82,9 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 3em;
     img{
-        width: 28em;
+        width: 26em;
         margin:0;
         padding: 0;
     }
@@ -117,19 +116,16 @@ nav a:hover{
     background: var(--button-text-hover-bg-color);
 }
 
-.intro-img {
-    width: 28em;
-}
-
 .menu-section{
     background-color: var(--page-bg-light);
     padding: 2em;
     border-radius: 0.5em;
 }
 
-.menu-section h2{
+.intro-menu h2{
     font-size: 2.25em;
-    margin-bottom: 1.88em;
+    margin-bottom: 1em;
+    margin-top: 0.8em;
 }
 
 .menu-grid{
@@ -148,7 +144,7 @@ nav a:hover{
 
 .card img{
     width: 100%;
-    height: 100%;
+    height: 70%;
     border-radius: 1em 1em 0 0;
 }
 
@@ -290,10 +286,16 @@ footer {
     }
 
     .intro-img {
+        width: 85%;
+        max-width: 18em;
         margin: 0;
-        padding: 0;
         display: flex;
         justify-content: center;
+    }
+
+    .intro-img img {
+        width: 28em;
+        margin: 0 auto;
     }
 
     .menu-grid {
@@ -316,7 +318,7 @@ footer {
     .intro-img {
         width: 85%;
         max-width: 18em;
-        margin: 0 auto;
+        margin: 0;
         display: flex;
         justify-content: center;
     }
@@ -370,7 +372,7 @@ footer {
 
     .intro-img img {
         width: 28em;
-        margin: 0 auto;
+        margin: 0 ;
     }
 
     .menu-section {
@@ -410,7 +412,7 @@ footer {
     .intro-img {
         width: 85%;
         max-width: 16em;
-        margin: 0 auto;
+        margin: 0;
         display: flex;
         justify-content: center;
     }
@@ -448,7 +450,7 @@ footer {
     .intro-img {
         width: 85%;
         max-width: 14em;
-        margin: 0 auto;
+        margin: 0;
         display: flex;
         justify-content: center;
     }
