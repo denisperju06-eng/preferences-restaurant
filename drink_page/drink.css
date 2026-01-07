@@ -82,11 +82,12 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     img{
-        width: 26em;
+        height: 32em;
         margin:0;
         padding: 0;
+
     }
 }
 
