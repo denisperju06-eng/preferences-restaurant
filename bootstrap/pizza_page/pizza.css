@@ -83,12 +83,11 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
     img{
-        height: 32em;
+        width: 26em;
         margin:0;
         padding: 0;
-
     }
 }
 
@@ -139,7 +138,6 @@ nav a:hover{
 .card{
     background: white;
     border: 0.1em solid var(--card-border-bg-color);
-    margin-bottom: 2em;
     border-radius: 1em;
     padding-bottom: 1.25em;
     box-shadow: 0.4em 0.4em 0.8em rgba(0,0,0,0.2), -0.3em -0.1em 0.8em rgba(0,0,0,0.2);
@@ -147,7 +145,7 @@ nav a:hover{
 
 .card img{
     width: 100%;
-    height: auto;
+    height: 70%;
     border-radius: 1em 1em 0 0;
 }
 
@@ -220,7 +218,6 @@ nav a:hover{
     color: #333;
 }
 
-
 footer {
     width: 85%;
     color: var(--text-color);
@@ -228,45 +225,40 @@ footer {
 
 .footer-container {
     display: flex;
-    gap: 13em;
+    justify-content: space-between;
+    gap: 3em;
+    flex-wrap: wrap;
 }
 
-.footer-col {
-    h3 {
-        font-size: 1.3em;
-        margin-bottom: 2em;
-    }
-    a {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1.5em;
-        color: var(--footer-text);
-        text-decoration: none;
-        cursor: pointer;
-        font-size: 1em;
-        transition: 0.2s;
-    }
+.footer-col h3 {
+    font-size: 1.3em;
+    margin-bottom: 1.2em;
 }
 
-.footer-list{
-    margin-bottom: 2em;
-    list-style: none;
+.footer-col a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.9em;
+    color: var(--footer-text);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.2s;
 }
+
 .footer-col a:hover {
     color: var(--hover-nav);
 }
 
-.social-links{
-    list-style: none;
-    img {
-        width: 1.8em;
-        height: 1.8em;
-        margin-right: 0.8em;
-        transition: transform 0.2s ease;
-    }
-    a:hover {
-        transform: scale(1.15);
-    }
+.social-links a img {
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 0.8em;
+    transition: transform 0.2s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.15);
 }
 
 .footer-bottom {
@@ -278,7 +270,6 @@ footer {
     color: var(--footer-text);
     font-size: 0.9em;
 }
-
 
 @media (max-width: 1200px) {
 

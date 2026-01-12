@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferences Burger Boootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="burger.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent p-0">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand logo m-0" href="#">PREFERENCES</a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav gap-4 buttonsSide">
+                    <a class="nav-link p-0 active" href="../index.html">Home</a>
+                    <a class="nav-link p-0" href="#menu-section">Menu</a>
+                    <a class="nav-link p-0" href="#footer">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="intro">
+        <div class="intro-text">
+            <h1>
+                Classic<br>burgers,<br>made<br>better
+            </h1>
+            <a class="btn-primary" href="#menu-section">
+                <button>ORDER NOW</button>
+            </a>
+        </div>
+
+        <div class="intro-img">
+            <img src="../../foto/burger/intro.png" alt="Burger plate">
+        </div>
+    </section>
+
+    <section class="menu-section container my-5" id="menu-section">
+
+        <div class="intro-menu">
+            <h2>Cheeseburger</h2>
+        </div>
+
+        <div class="row menu-grid g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-1" class="popup-toggle">
+                    <label for="popup-1" class="card-link">
+                        <img src="../../foto/burger/clasic-burger.png" class="card-img-top" alt="Classic Cheeseburger">
+                        <div class="card-body">
+                            <h3 class="card-title">Classic Cheeseburger</h3>
+                            <p class="card-text">Juicy beef patty with melted cheddar cheese.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-1" class="close">&times;</label>
+                            <h2>Classic Cheeseburger</h2>
+                            <img src="../../foto/burger/clasic-burger.png" alt="Classic Cheeseburger">
+                            <p><b>Ingrediente:</b> chiflă brioche, carne vită 100%, cheddar, salată iceberg, roșii, sos burger.</p>
+                            <p><b>Gramaj:</b> 260g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-2" class="popup-toggle">
+                    <label for="popup-2" class="card-link">
+                        <img src="../../foto/burger/Double-Cheeseburger.png" class="card-img-top" alt="Double Cheeseburger">
+                        <div class="card-body">
+                            <h3 class="card-title">Double Cheeseburger</h3>
+                            <p class="card-text">Two beef patties layered with double cheese.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-2" class="close">&times;</label>
+                            <h2>Double Cheeseburger</h2>
+                            <img src="../../foto/burger/Double-Cheeseburger.png" alt="Double Cheeseburger">
+                            <p><b>Ingrediente:</b> chiflă brioche, 2x carne vită, cheddar dublu, ceapă, castraveți murați, sos burger.</p>
+                            <p><b>Gramaj:</b> 340g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-3" class="popup-toggle">
+                    <label for="popup-3" class="card-link">
+                        <img src="../../foto/burger/Bacon-Cheeseburger.png" class="card-img-top" alt="Bacon Cheeseburger">
+                        <div class="card-body">
+                            <h3 class="card-title">Bacon Cheeseburger</h3>
+                            <p class="card-text">Classic cheeseburger topped with crispy bacon.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-3" class="close">&times;</label>
+                            <h2>Bacon Cheeseburger</h2>
+                            <img src="../../foto/burger/Bacon-Cheeseburger.png" alt="Bacon Cheeseburger">
+                            <p><b>Ingrediente:</b> chiflă brioche, carne vită, cheddar, bacon crocant, salată, sos BBQ.</p>
+                            <p><b>Gramaj:</b> 300g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-menu">
+            <h2>Hamburger</h2>
+        </div>
+
+        <div class="row menu-grid g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-4" class="popup-toggle">
+                    <label for="popup-4" class="card-link">
+                        <img src="../../foto/burger/Classic-Hamburger.png" class="card-img-top" alt="Classic Hamburger">
+                        <div class="card-body">
+                            <h3 class="card-title">Classic Hamburger</h3>
+                            <p class="card-text">Simple and juicy beef burger.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-4" class="close">&times;</label>
+                            <h2>Classic Hamburger</h2>
+                            <img src="../../foto/burger/Classic-Hamburger.png" alt="Classic Hamburger">
+                            <p><b>Ingrediente:</b> chiflă clasică, carne vită, salată, roșii, ceapă, sos special.</p>
+                            <p><b>Gramaj:</b> 230g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-5" class="popup-toggle">
+                    <label for="popup-5" class="card-link">
+                        <img src="../../foto/burger/Double-Hamburger.png" class="card-img-top" alt="Double Hamburger">
+                        <div class="card-body">
+                            <h3 class="card-title">Double Hamburger</h3>
+                            <p class="card-text">Double beef for extra flavor.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-5" class="close">&times;</label>
+                            <h2>Double Hamburger</h2>
+                            <img src="../../foto/burger/Double-Hamburger.png" alt="Double Hamburger">
+                            <p><b>Ingrediente:</b> chiflă clasică, 2x carne vită, salată, ceapă caramelizată, sos burger.</p>
+                            <p><b>Gramaj:</b> 310g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-6" class="popup-toggle">
+                    <label for="popup-6" class="card-link">
+                        <img src="../../foto/burger/Grilled-Onion-Hamburger.png" class="card-img-top" alt="Grilled Onion Hamburger">
+                        <div class="card-body">
+                            <h3 class="card-title">Grilled Onion Hamburger</h3>
+                            <p class="card-text">Beef burger with sweet grilled onions.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-6" class="close">&times;</label>
+                            <h2>Grilled Onion Hamburger</h2>
+                            <img src="../../foto/burger/Grilled-Onion-Hamburger.png" alt="Grilled Onion Hamburger">
+                            <p><b>Ingrediente:</b> chiflă brioche, carne vită, ceapă la grătar, cașcaval, sos aioli.</p>
+                            <p><b>Gramaj:</b> 270g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-menu">
+            <h2>Chicken Burgers</h2>
+        </div>
+
+        <div class="row menu-grid g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-7" class="popup-toggle">
+                    <label for="popup-7" class="card-link">
+                        <img src="../../foto/burger/Crispy-Chicken-Burger.png" class="card-img-top" alt="Crispy Chicken Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Crispy Chicken Burger</h3>
+                            <p class="card-text">Crunchy fried chicken fillet.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-7" class="close">&times;</label>
+                            <h2>Crispy Chicken Burger</h2>
+                            <img src="../../foto/burger/Crispy-Chicken-Burger.png" alt="Crispy Chicken Burger">
+                            <p><b>Ingrediente:</b> chiflă brioche, piept de pui crispy, salată, maioneză, castraveți murați.</p>
+                            <p><b>Gramaj:</b> 290g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-8" class="popup-toggle">
+                    <label for="popup-8" class="card-link">
+                        <img src="../../foto/burger/Spicy-Chicken-Burger.png" class="card-img-top" alt="Spicy Chicken Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Spicy Chicken Burger</h3>
+                            <p class="card-text">Crispy chicken with a spicy kick.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-8" class="close">&times;</label>
+                            <h2>Spicy Chicken Burger</h2>
+                            <img src="../../foto/burger/Spicy-Chicken-Burger.png" alt="Spicy Chicken Burger">
+                            <p><b>Ingrediente:</b> chiflă brioche, pui crispy, salată, sos picant, cheddar.</p>
+                            <p><b>Gramaj:</b> 295g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-9" class="popup-toggle">
+                    <label for="popup-9" class="card-link">
+                        <img src="../../foto/burger/Grilled-Chicken-Burger.png" class="card-img-top" alt="Grilled Chicken Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Grilled Chicken Burger</h3>
+                            <p class="card-text">Light grilled chicken burger.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-9" class="close">&times;</label>
+                            <h2>Grilled Chicken Burger</h2>
+                            <img src="../../foto/burger/Grilled-Chicken-Burger.png" alt="Grilled Chicken Burger">
+                            <p><b>Ingrediente:</b> chiflă integrală, piept de pui la grătar, salată, roșii, sos iaurt.</p>
+                            <p><b>Gramaj:</b> 280g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-menu">
+            <h2>Veggie Burgers</h2>
+        </div>
+
+        <div class="row menu-grid g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-10" class="popup-toggle">
+                    <label for="popup-10" class="card-link">
+                        <img src="../../foto/burger/Classic_Veggie_Burger.png" class="card-img-top" alt="Classic Veggie Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Classic Veggie Burger</h3>
+                            <p class="card-text">Plant-based patty with fresh vegetables.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-10" class="close">&times;</label>
+                            <h2>Classic Veggie Burger</h2>
+                            <img src="../../foto/burger/Classic_Veggie_Burger.png" alt="Classic Veggie Burger">
+                            <p><b>Ingrediente:</b> chiflă integrală, chiftea vegetală, salată, roșii, sos vegan.</p>
+                            <p><b>Gramaj:</b> 260g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-11" class="popup-toggle">
+                    <label for="popup-11" class="card-link">
+                        <img src="../../foto/burger/Falafel_Burger.png" class="card-img-top" alt="Falafel Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Falafel Burger</h3>
+                            <p class="card-text">Falafel patty with creamy tahini sauce.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-11" class="close">&times;</label>
+                            <h2>Falafel Burger</h2>
+                            <img src="../../foto/burger/Falafel_Burger.png" alt="Falafel Burger">
+                            <p><b>Ingrediente:</b> chiflă brioche, falafel, salată, roșii, sos tahini.</p>
+                            <p><b>Gramaj:</b> 270g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-12" class="popup-toggle">
+                    <label for="popup-12" class="card-link">
+                        <img src="../../foto/burger/Spicy_Bean_Burger.png" class="card-img-top" alt="Spicy Bean Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Spicy Bean Burger</h3>
+                            <p class="card-text">Spicy bean patty with bold flavors.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-12" class="close">&times;</label>
+                            <h2>Spicy Bean Burger</h2>
+                            <img src="../../foto/burger/Spicy_Bean_Burger.png" alt="Spicy Bean Burger">
+                            <p><b>Ingrediente:</b> chiflă integrală, chiftea din fasole picantă, salată, sos chilli.</p>
+                            <p><b>Gramaj:</b> 265g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-menu">
+            <h2>Fish Burgers</h2>
+        </div>
+
+        <div class="row menu-grid g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-13" class="popup-toggle">
+                    <label for="popup-13" class="card-link">
+                        <img src="../../foto/burger/Crispy_Fish_Burger.png" class="card-img-top" alt="Crispy Fish Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Crispy Fish Burger</h3>
+                            <p class="card-text">Golden fried fish fillet with tartar sauce.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-13" class="close">&times;</label>
+                            <h2>Crispy Fish Burger</h2>
+                            <img src="../../foto/burger/Crispy_Fish_Burger.png" alt="Crispy Fish Burger">
+                            <p><b>Ingrediente:</b> chiflă brioche, file de pește pane, salată, sos tartar.</p>
+                            <p><b>Gramaj:</b> 290g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-14" class="popup-toggle">
+                    <label for="popup-14" class="card-link">
+                        <img src="../../foto/burger/Spicy_Fish_Burger.png" class="card-img-top" alt="Spicy Fish Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Spicy Fish Burger</h3>
+                            <p class="card-text">Fish burger with a spicy kick.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-14" class="close">&times;</label>
+                            <h2>Spicy Fish Burger</h2>
+                            <img src="../../foto/burger/Spicy_Fish_Burger.png" alt="Spicy Fish Burger">
+                            <p><b>Ingrediente:</b> chiflă brioche, file de pește, salată, sos picant, ceapă.</p>
+                            <p><b>Gramaj:</b> 295g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100">
+                    <input type="checkbox" id="popup-15" class="popup-toggle">
+                    <label for="popup-15" class="card-link">
+                        <img src="../../foto/burger/Lemon_Herb_Fish_Burger.png" class="card-img-top" alt="Lemon Herb Fish Burger">
+                        <div class="card-body">
+                            <h3 class="card-title">Lemon Herb Fish Burger</h3>
+                            <p class="card-text">Grilled fish with lemon and herbs.</p>
+                        </div>
+                    </label>
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <label for="popup-15" class="close">&times;</label>
+                            <h2>Lemon Herb Fish Burger</h2>
+                            <img src="../../foto/burger/Lemon_Herb_Fish_Burger.png" alt="Lemon Herb Fish Burger">
+                            <p><b>Ingrediente:</b> chiflă integrală, file de pește la grătar, lămâie, ierburi, sos iaurt.</p>
+                            <p><b>Gramaj:</b> 285g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+
+
+<footer id="footer">
+    <div class="container-fluid p-0">
+        <div class="row">
+
+            <div class="footer-col col-lg-3 col-md-6 col-12">
+                <h3 class="text-uppercase text-left">Company</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Support
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Careers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-lg-3 col-md-6 col-12">
+                <h3 class="text-uppercase text-left">Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#menu-section">
+                            Menu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                            Footer
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../index.html">
+                            First page
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-lg-3 col-md-6 col-12">
+                <h3 class="text-uppercase text-left">Bootstrap</h3>
+                <ul class="list-unstyled">
+                    <li><a href="https://getbootstrap.com" target="_blank">Documentation</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-lg-3 col-md-6 col-12">
+                <h3 class="text-uppercase text-left">Follow Us</h3>
+                <ul class="social-links list-unstyled">
+                    <li>
+                        <a href="#facebook" id="facebook">
+                            <img src="../../foto/icons/facebook.svg" alt="Facebook">
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#instagram" id="instagram">
+                            <img src="../../foto/icons/instagram.svg" alt="Instagram">
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#tiktok" id="tiktok">
+                            <img src="../../foto/icons/tiktok.svg" alt="TikTok">
+                            <span>TikTok</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Preferences Restaurant. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
